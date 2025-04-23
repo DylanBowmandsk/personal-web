@@ -1,7 +1,8 @@
-import Splash from "./splash";
-import Navbar from "./navbar";
-import About from "./about";
-import Image from "next/image"; // Keep this if you're using <Image /> somewhere
+import Splash from "./splash"
+import Navbar from "./navbar"
+import About from "./about"
+import Skills from "./skills"
+import Image from "next/image"
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Navbar />
       <Splash />
       <About/>
+      <Skills />
     </div>
   );
 };

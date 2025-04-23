@@ -20,7 +20,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link href="#projects" className="hover:text-violet-400 transition-colors duration-200">
-              Projects
+              Skills
             </Link>
           </li>
           <li>
