@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const About = () => {
     return(
         <div className="flex flex-col items-center justify-center px-70 bg-stone-950 text-zinc-100">
@@ -11,9 +13,14 @@ const About = () => {
                     <p className="py-2">Outside of development i'm interested in digital media, finance and family</p>
                 </div>
                 <div className="flex-1 flex items-center justify-center">
-          <div className="w-36 h-36 rounded-full bg-zinc-300 flex items-center justify-center text-zinc-500 text-3xl font-semibold">
-            DB
-          </div>
+                   <div className="w-62 h-62 bg-zinc-300 flex items-center">
+                    <Image
+                        src="/pfp.jpg"
+                        width={800}
+                        height={800}
+                        alt="Picture of the author"
+                    />
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 import {FaReact,FaJava,FaPython,FaNodeJs,FaGitAlt,FaAndroid} from "react-icons/fa"
-import {SiDotnet,SiFirebase,SiMongodb,SiMysql,SiJavascript} from "react-icons/si"
+import {SiDotnet,SiFirebase,SiMongodb,SiMysql,SiJavascript, SiExpress,SiFlask} from "react-icons/si"
   
   const skills = [
     { name: 'React', icon: <FaReact className="text-cyan-400" /> },
@@ -13,6 +13,7 @@ import {SiDotnet,SiFirebase,SiMongodb,SiMysql,SiJavascript} from "react-icons/si
     { name: 'Firebase', icon: <SiFirebase className="text-yellow-400" /> },
     { name: 'Git', icon: <FaGitAlt className="text-orange-400" /> },
     { name: 'Android', icon: <FaAndroid className="text-lime-400" /> },
+    { name: 'Express', icon: <SiExpress className="text-lime-400" /> },
   ];
 const Skills = () => {
   return (
