@@ -1,5 +1,5 @@
 import {FaReact,FaJava,FaPython,FaNodeJs,FaGitAlt,FaAndroid} from "react-icons/fa"
-import {SiDotnet,SiFirebase,SiMongodb,SiMysql,SiJavascript, SiExpress,SiFlask} from "react-icons/si"
+import {SiDotnet,SiFirebase,SiMongodb,SiMysql,SiJavascript, SiExpress} from "react-icons/si"
   
   const skills = [
     { name: 'React', icon: <FaReact className="text-cyan-400" /> },
