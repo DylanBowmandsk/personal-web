@@ -5,7 +5,7 @@ const Work = () => {
     <div className="flex flex-col items-center justify-center px-16 bg-stone-950 text-zinc-100">
       <h1 className="py-20 text-4xl font-light text-violet-400">Work</h1>
 
-      <div className="flex flex-row w-full max-w-6xl gap-12 items-center mb-16">
+      <div className="flex flex-row w-full max-w-7xl gap-46 items-center mb-24">
         <div className="flex-1 text-zinc-300 font-light">
           <h2 className="text-2xl font-semibold mb-2">Self-Employed</h2>
           <div className="mb-4">
@@ -20,7 +20,7 @@ const Work = () => {
           </p>
         </div>
 
-        <div className="flex-1 flex justify-center items-center">
+        <div className="flex-1 flex justify-end items-center">
           <div className="w-[480px] h-[280px] overflow-hidden rounded-xl shadow-lg">
             <Image src="/blockchain-image.PNG" width={800} height={800} alt="Web3 Project Visual" className="object-cover w-full h-full"
             />
@@ -28,8 +28,8 @@ const Work = () => {
         </div>
       </div>
 
-      <div className="flex flex-row w-full max-w-6xl gap-12 items-center mb-16">
-        <div className="flex-1 flex justify-center items-center">
+      <div className="flex flex-row w-full max-w-7xl gap-46 items-center mb-24">
+        <div className="flex-1 flex justify-start items-center">
           <div className="w-[480px] h-[280px] overflow-hidden rounded-xl shadow-lg">
             <Image src="/genius-image.png" width={800} height={800} alt="Genius SSLC" className="object-cover w-full h-full"
             />
@@ -51,7 +51,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className="flex flex-row w-full max-w-6xl gap-12 items-center mb-16">
+      <div className="flex flex-row w-full max-w-7xl gap-46 items-center mb-24">
         <div className="flex-1 text-zinc-300 font-light">
           <h2 className="text-2xl font-semibold mb-2">Peter Vardy</h2>
           <div className="mb-4">
@@ -65,7 +65,7 @@ const Work = () => {
           </p>
         </div>
 
-        <div className="flex-1 flex justify-center items-center">
+        <div className="flex-1 flex justify-end items-center">
           <div className="w-[480px] h-[280px] overflow-hidden rounded-xl shadow-lg">
             <Image src="/pv-image.PNG" width={800} height={800} alt="Peter Vardy Office" className="object-cover w-full h-full"
             />
