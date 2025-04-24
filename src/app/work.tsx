@@ -6,7 +6,7 @@ const Work = () => {
       <h1 className="py-20 text-4xl font-light text-violet-400">Work</h1>
 
       <div className="flex flex-row w-full max-w-7xl gap-46 items-center mb-24">
-        <div className="flex-1 text-zinc-300 font-light">
+        <div className="flex-1 text-zinc-300 font-light" data-aos="fade-right">
           <h2 className="text-2xl font-semibold mb-2 text-violet-400">Self-Employed</h2>
           <div className="mb-4 border-b border-zinc-700">
             <h3 className="inline text-lg font-medium">Web3 Developer</h3>
@@ -20,7 +20,7 @@ const Work = () => {
           </p>
         </div>
 
-        <div className="flex-1 flex justify-end items-center">
+        <div className="flex-1 flex justify-end items-center" data-aos="fade-left">
           <div className="w-[480px] h-[280px] overflow-hidden rounded-xl shadow-lg">
             <Image src="/blockchain-image.PNG" width={800} height={800} alt="Web3 Project Visual" className="object-cover w-full h-full"
             />
@@ -29,14 +29,14 @@ const Work = () => {
       </div>
 
       <div className="flex flex-row w-full max-w-7xl gap-46 items-center mb-24">
-        <div className="flex-1 flex justify-start items-center">
+        <div className="flex-1 flex justify-start items-center" data-aos="fade-right">
           <div className="w-[480px] h-[280px] overflow-hidden rounded-xl shadow-lg">
             <Image src="/genius-image.png" width={800} height={800} alt="Genius SSLC" className="object-cover w-full h-full"
             />
           </div>
         </div>
 
-        <div className="flex-1 text-zinc-300 font-light">
+        <div className="flex-1 text-zinc-300 font-light"data-aos="fade-left">
           <h2 className="text-2xl font-semibold mb-2 text-violet-400">Genius SSLC</h2>
           <div className="mb-4 border-b border-zinc-700">
             <h3 className="inline text-lg font-medium">Software Engineer</h3>
@@ -52,7 +52,7 @@ const Work = () => {
       </div>
 
       <div className="flex flex-row w-full max-w-7xl gap-46 items-center mb-24">
-        <div className="flex-1 text-zinc-300 font-light">
+        <div className="flex-1 text-zinc-300 font-light" data-aos="fade-right">
           <h2 className="text-2xl font-semibold mb-2 text-violet-400">Peter Vardy</h2>
           <div className="mb-4 border-b border-zinc-700">
             <h3 className="inline text-lg font-medium">Application Developer</h3>
@@ -65,7 +65,7 @@ const Work = () => {
           </p>
         </div>
 
-        <div className="flex-1 flex justify-end items-center">
+        <div className="flex-1 flex justify-end items-center" data-aos="fade-left">
           <div className="w-[480px] h-[280px] overflow-hidden rounded-xl shadow-lg">
             <Image src="/pv-image.PNG" width={800} height={800} alt="Peter Vardy Office" className="object-cover w-full h-full"
             />

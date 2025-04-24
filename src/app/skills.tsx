@@ -1,6 +1,10 @@
+"use client"
 import {FaReact,FaJava,FaPython,FaNodeJs,FaGitAlt,FaAndroid, FaDocker} from "react-icons/fa"
 import {SiDotnet,SiFirebase,SiMongodb,SiMysql,SiJavascript,SiExpress,SiKubernetes} from "react-icons/si"
-  
+import AOS from "aos"
+import "aos/dist/aos.css"
+import { useEffect } from "react"
+
   const skills = [
     { name: 'React', icon: <FaReact className="text-cyan-400" /> },
     { name: '.NET', icon: <SiDotnet className="text-indigo-300" /> },
@@ -18,13 +22,19 @@ import {SiDotnet,SiFirebase,SiMongodb,SiMysql,SiJavascript,SiExpress,SiKubernete
     { name: 'Express', icon: <SiExpress className="text-lime-400" /> },
   ];
 const Skills = () => {
+
+      useEffect(() => {
+        AOS.init({})
+      }, [])
+    
+
   return (
     <div id="skills" className="flex flex-col items-center justify-center px-10 py-20 bg-stone-950 text-zinc-100">
       <h1 className="text-4xl text-violet-400 font-light poppins-light mb-10">{"Skills"}</h1>
       
       <div className="text-3xl poppins-regular text-zinc-300 mb-6">{"Development Skills"}</div>
 
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-6 w-full max-w-3xl">
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-6 w-full max-w-3xl" data-aos="fade-up">
         {skills.map((skill) => (
           <div
             key={skill.name}
