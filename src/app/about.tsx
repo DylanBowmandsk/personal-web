@@ -12,13 +12,14 @@ const About = () => {
                     <p className="py-2">{"Outside of development i'm interested in digital media, finance and family"}</p>
                 </div>
                 <div className="flex-1 flex items-center justify-center">
-                   <div className="w-62 h-62 bg-zinc-300 flex items-center">
-                    <Image
-                        src="/pfp.jpg"
+                    <div className="w-74 h-74 bg-white flex items-center justify-center rounded-full overflow-hidden">
+                        <Image
+                        src="/pfp.PNG"
                         width={800}
                         height={800}
                         alt="Picture of the author"
-                    />
+                        className="rounded-full object-cover w-full h-full border-solid border-5 border-zinc-100"
+                        />
                     </div>
                 </div>
             </div>
