@@ -25,6 +25,11 @@ const Navbar = () => {
           </li>
           <li>
             <Link href="#contact" className="hover:text-violet-400 transition-colors duration-200">
+              {"Work"}
+            </Link>
+          </li>
+          <li>
+            <Link href="#contact" className="hover:text-violet-400 transition-colors duration-200">
               {"Contact"}
             </Link>
           </li>

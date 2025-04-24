@@ -1,5 +1,5 @@
-import {FaReact,FaJava,FaPython,FaNodeJs,FaGitAlt,FaAndroid} from "react-icons/fa"
-import {SiDotnet,SiFirebase,SiMongodb,SiMysql,SiJavascript, SiExpress} from "react-icons/si"
+import {FaReact,FaJava,FaPython,FaNodeJs,FaGitAlt,FaAndroid, FaDocker} from "react-icons/fa"
+import {SiDotnet,SiFirebase,SiMongodb,SiMysql,SiJavascript,SiExpress,SiKubernetes} from "react-icons/si"
   
   const skills = [
     { name: 'React', icon: <FaReact className="text-cyan-400" /> },
@@ -11,6 +11,8 @@ import {SiDotnet,SiFirebase,SiMongodb,SiMysql,SiJavascript, SiExpress} from "rea
     { name: 'SQL', icon: <SiMysql className="text-sky-400" /> },
     { name: 'MongoDB', icon: <SiMongodb className="text-emerald-400" /> },
     { name: 'Firebase', icon: <SiFirebase className="text-yellow-400" /> },
+    { name: 'Docker', icon: <FaDocker className="text-blue-400" /> },
+    { name: 'Kubernetes', icon: <SiKubernetes className="text-blue-400" /> },
     { name: 'Git', icon: <FaGitAlt className="text-orange-400" /> },
     { name: 'Android', icon: <FaAndroid className="text-lime-400" /> },
     { name: 'Express', icon: <SiExpress className="text-lime-400" /> },
@@ -22,7 +24,7 @@ const Skills = () => {
       
       <div className="text-3xl poppins-regular text-zinc-300 mb-6">{"Development Skills"}</div>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-4xl">
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-6 w-full max-w-3xl">
         {skills.map((skill) => (
           <div
             key={skill.name}
