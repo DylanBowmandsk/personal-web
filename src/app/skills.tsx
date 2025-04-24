@@ -19,7 +19,7 @@ import {SiDotnet,SiFirebase,SiMongodb,SiMysql,SiJavascript,SiExpress,SiKubernete
   ];
 const Skills = () => {
   return (
-    <div className="flex flex-col items-center justify-center px-10 py-20 bg-stone-950 text-zinc-100">
+    <div id="skills" className="flex flex-col items-center justify-center px-10 py-20 bg-stone-950 text-zinc-100">
       <h1 className="text-4xl text-violet-400 font-light poppins-light mb-10">{"Skills"}</h1>
       
       <div className="text-3xl poppins-regular text-zinc-300 mb-6">{"Development Skills"}</div>

@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const About = () => {
     return(
-        <div className="flex flex-col items-center justify-center px-70 bg-stone-950 text-zinc-100">
+        <div id="about" className="flex flex-col items-center justify-center px-70 bg-stone-950 text-zinc-100">
             <h1 className="py-20 .poppins-light text-4xl text-violet-400">About Me</h1>
             <div className="flex">
                 <div className="flex-1 poppins-regular text-zinc-300">

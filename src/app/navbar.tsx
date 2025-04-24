@@ -19,12 +19,12 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link href="#projects" className="hover:text-violet-400 transition-colors duration-200">
+            <Link href="#skills" className="hover:text-violet-400 transition-colors duration-200">
               {"Skills"}
             </Link>
           </li>
           <li>
-            <Link href="#contact" className="hover:text-violet-400 transition-colors duration-200">
+            <Link href="#work" className="hover:text-violet-400 transition-colors duration-200">
               {"Work"}
             </Link>
           </li>

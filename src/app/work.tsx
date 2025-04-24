@@ -2,13 +2,13 @@ import Image from "next/image";
 
 const Work = () => {
   return (
-    <div className="flex flex-col items-center justify-center px-16 bg-stone-950 text-zinc-100">
+    <div id="work" className="flex flex-col items-center justify-center px-16 bg-stone-950 text-zinc-100">
       <h1 className="py-20 text-4xl font-light text-violet-400">Work</h1>
 
       <div className="flex flex-row w-full max-w-7xl gap-46 items-center mb-24">
         <div className="flex-1 text-zinc-300 font-light">
-          <h2 className="text-2xl font-semibold mb-2">Self-Employed</h2>
-          <div className="mb-4">
+          <h2 className="text-2xl font-semibold mb-2 text-violet-400">Self-Employed</h2>
+          <div className="mb-4 border-b border-zinc-700">
             <h3 className="inline text-lg font-medium">Web3 Developer</h3>
             <span className="ml-2 text-sm text-zinc-400">2024 – Current</span>
           </div>
@@ -37,8 +37,8 @@ const Work = () => {
         </div>
 
         <div className="flex-1 text-zinc-300 font-light">
-          <h2 className="text-2xl font-semibold mb-2">Genius SSLC</h2>
-          <div className="mb-4">
+          <h2 className="text-2xl font-semibold mb-2 text-violet-400">Genius SSLC</h2>
+          <div className="mb-4 border-b border-zinc-700">
             <h3 className="inline text-lg font-medium">Software Engineer</h3>
             <span className="ml-2 text-sm text-zinc-400">2023 – 2024</span>
           </div>
@@ -53,8 +53,8 @@ const Work = () => {
 
       <div className="flex flex-row w-full max-w-7xl gap-46 items-center mb-24">
         <div className="flex-1 text-zinc-300 font-light">
-          <h2 className="text-2xl font-semibold mb-2">Peter Vardy</h2>
-          <div className="mb-4">
+          <h2 className="text-2xl font-semibold mb-2 text-violet-400">Peter Vardy</h2>
+          <div className="mb-4 border-b border-zinc-700">
             <h3 className="inline text-lg font-medium">Application Developer</h3>
             <span className="ml-2 text-sm text-zinc-400">2022 – 2023</span>
           </div>
