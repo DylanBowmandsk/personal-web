@@ -1,9 +1,5 @@
-"use client"
 import {FaReact,FaJava,FaPython,FaNodeJs,FaGitAlt,FaAndroid, FaDocker} from "react-icons/fa"
 import {SiDotnet,SiFirebase,SiMongodb,SiMysql,SiJavascript,SiExpress,SiKubernetes} from "react-icons/si"
-import AOS from "aos"
-import "aos/dist/aos.css"
-import { useEffect } from "react"
 
   const skills = [
     { name: 'React', icon: <FaReact className="text-cyan-400" /> },
@@ -21,12 +17,7 @@ import { useEffect } from "react"
     { name: 'Android', icon: <FaAndroid className="text-lime-400" /> },
     { name: 'Express', icon: <SiExpress className="text-lime-400" /> },
   ];
-const Skills = () => {
-
-      useEffect(() => {
-        AOS.init({})
-      }, [])
-    
+const Skills = () => {    
 
   return (
     <div id="skills" className="flex flex-col items-center justify-center px-10 py-20 bg-stone-950 text-zinc-100">
