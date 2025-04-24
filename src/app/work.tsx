@@ -7,12 +7,12 @@ const Work = () => {
 
       <div className="flex flex-row w-full max-w-7xl gap-46 items-center mb-24">
         <div className="flex-1 text-zinc-300 font-light" data-aos="fade-right">
-          <h2 className="text-2xl font-semibold mb-2 text-violet-400">Self-Employed</h2>
+          <h2 className="text-3xl font-semibold mb-2 text-violet-400">Self-Employed</h2>
           <div className="mb-4 border-b border-zinc-700">
-            <h3 className="inline text-lg font-medium">Web3 Developer</h3>
+            <h3 className="inline text-lg font-medium text-xl">Web3 Developer</h3>
             <span className="ml-2 text-sm text-zinc-400">2024 – Current</span>
           </div>
-          <p>
+          <p className="text-lg">
             Working from the Solana blockchain, I developed bots for token launches that distributed supply to wallets, as well as volume bots to inflate trading activity.
             These helped tokens hit the #1 trending spots on listing platforms. On the non-technical side, I contributed to community growth through marketing and engagement strategy,
             and by working closely with investors, community managers, and key opinion leaders. I’ve been part of the launch team for multiple tokens that reached million-dollar
@@ -37,12 +37,12 @@ const Work = () => {
         </div>
 
         <div className="flex-1 text-zinc-300 font-light"data-aos="fade-left">
-          <h2 className="text-2xl font-semibold mb-2 text-violet-400">Genius SSLC</h2>
+          <h2 className="text-3xl font-semibold mb-2 text-violet-400">Genius SSLC</h2>
           <div className="mb-4 border-b border-zinc-700">
-            <h3 className="inline text-lg font-medium">Software Engineer</h3>
+            <h3 className="inline text-lg font-medium text-xl">Software Engineer</h3>
             <span className="ml-2 text-sm text-zinc-400">2023 – 2024</span>
           </div>
-          <p>
+          <p className="text-lg">
             In this role I specialized in C# with some Vue/JavaScript web development and heavy SQL work.
             My focus was the Adept product, a debt CRM used by (redacted). My daily tasks varied: adding features, fixing bugs, and creating data importers/exporters.
             We followed solid DevOps practices—proper Git management, testing, approvals, and task tracking. This role matured me as a developer and helped me thrive
@@ -53,12 +53,12 @@ const Work = () => {
 
       <div className="flex flex-row w-full max-w-7xl gap-46 items-center mb-24">
         <div className="flex-1 text-zinc-300 font-light" data-aos="fade-right">
-          <h2 className="text-2xl font-semibold mb-2 text-violet-400">Peter Vardy</h2>
+          <h2 className="text-3xl font-semibold mb-2 text-violet-400">Peter Vardy</h2>
           <div className="mb-4 border-b border-zinc-700">
-            <h3 className="inline text-lg font-medium">Application Developer</h3>
+            <h3 className="inline text-lg font-medium text-xl">Application Developer</h3>
             <span className="ml-2 text-sm text-zinc-400">2022 – 2023</span>
           </div>
-          <p>
+          <p className="text-lg">
             At Peter Vardy I was in a mid-level role, primarily working with Python and the Microsoft Power Platform.
             I built several internal tools—like a web scraper (Python/React), a personal development planner, and other sign-off-based apps.
             I also developed Python RPA scripts to automate department workflows and frequently presented my work to board members, including Mr. Vardy.
