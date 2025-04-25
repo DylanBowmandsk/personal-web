@@ -6,7 +6,7 @@ const Work = () => {
       <h1 className="py-20 text-4xl font-light text-violet-400">Work</h1>
 
       <div className="flex flex-row w-full max-w-7xl gap-46 items-center mb-24">
-        <div className="flex-1 text-zinc-300 font-light" data-aos="fade-right">
+        <div className="flex-1 text-zinc-100 font-light" data-aos="fade-right">
           <h2 className="text-3xl font-semibold mb-2 text-violet-400">Self-Employed</h2>
           <div className="mb-4 border-b border-zinc-700">
             <h3 className="inline text-lg font-medium text-xl">Web3 Developer</h3>
@@ -36,7 +36,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="flex-1 text-zinc-300 font-light"data-aos="fade-left">
+        <div className="flex-1 text-zinc-100 font-light"data-aos="fade-left">
           <h2 className="text-3xl font-semibold mb-2 text-violet-400">Genius SSLC</h2>
           <div className="mb-4 border-b border-zinc-700">
             <h3 className="inline text-lg font-medium text-xl">Software Engineer</h3>
@@ -52,7 +52,7 @@ const Work = () => {
       </div>
 
       <div className="flex flex-row w-full max-w-7xl gap-46 items-center mb-24">
-        <div className="flex-1 text-zinc-300 font-light" data-aos="fade-right">
+        <div className="flex-1 text-zinc-100 font-light" data-aos="fade-right">
           <h2 className="text-3xl font-semibold mb-2 text-violet-400">Peter Vardy</h2>
           <div className="mb-4 border-b border-zinc-700">
             <h3 className="inline text-lg font-medium text-xl">Application Developer</h3>
