@@ -3,7 +3,7 @@ import Image from "next/image";
 const Work = () => {
   return (
     <div id="work" className="flex flex-col items-center justify-center px-16 bg-stone-950 text-zinc-100">
-      <h1 className="py-20 text-4xl font-light text-violet-400">Work</h1>
+      <h1 className="py-20 text-4xl font-light text-violet-400" data-aos="fade-right">Work</h1>
 
       <div className="flex flex-row w-full max-w-7xl gap-46 items-center mb-24">
         <div className="flex-1 text-zinc-100 font-light" data-aos="fade-right">

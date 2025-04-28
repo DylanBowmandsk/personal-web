@@ -21,9 +21,9 @@ const Skills = () => {
 
   return (
     <div id="skills" className="flex flex-col items-center justify-center px-10 py-20 bg-stone-950 text-zinc-100">
-      <h1 className="text-4xl text-violet-400 font-light poppins-light mb-10">{"Skills"}</h1>
+      <h1 className="text-4xl text-violet-400 font-light poppins-light mb-10" data-aos="fade-right">{"Skills"}</h1>
       
-      <div className="text-3xl poppins-regular text-zinc-300 mb-6">{"Development Skills"}</div>
+      <div className="text-3xl poppins-regular text-zinc-300 mb-6" data-aos="fade-up">{"Development Skills"}</div>
 
       <div className="grid grid-cols-2 md:grid-cols-5 gap-6 w-full max-w-3xl" data-aos="fade-up">
         {skills.map((skill) => (

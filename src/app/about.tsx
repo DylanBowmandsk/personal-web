@@ -3,7 +3,7 @@ import Image from "next/image"
 const About = () => {
     return(
         <div id="about" className="flex flex-col items-center justify-center px-70 bg-stone-950 text-zinc-100 pb-40">
-            <h1 className="py-20 .poppins-light text-4xl text-violet-400">About Me</h1>
+            <h1 className="py-20 .poppins-light text-4xl text-violet-400" data-aos="fade-right">About Me</h1>
             <div className="flex">
                 <div className="flex-1 poppins-regular text-zinc-100 text-xl" data-aos="fade-right">
                     <p className="py-2">{"I'm a software developer from Glasgow, Scotland who specialises in full stack development as well as automating business processes with hands on experience in blockchain technologies."}</p>
