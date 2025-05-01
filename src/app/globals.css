@@ -97,5 +97,5 @@ body {
 }
 
 .buttonFadeBounce{
-  animation: fadeTop 1s 2s ease forwards, bounce 1s infinite;
+  animation: fadeTop 1s 2s ease forwards, bounce 1.2s infinite;
 }
