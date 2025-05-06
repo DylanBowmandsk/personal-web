@@ -5,6 +5,7 @@ import Navbar from "./navbar"
 import About from "./about"
 import Skills from "./skills"
 import Work from "./work"
+import Contact from "./contact"
 import Footer from "./footer"
 import AOS from "aos"
 import "aos/dist/aos.css"
@@ -23,6 +24,7 @@ const Home = () => {
       <About/>
       <Skills />
       <Work />
+      <Contact />
       <Footer />
     </div>
   );
