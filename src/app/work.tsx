@@ -2,10 +2,10 @@ import Image from "next/image";
 
 const Work = () => {
   return (
-    <div id="work" className="flex flex-col items-center justify-center px-16 bg-stone-950 text-zinc-100">
+    <div id="work" className="flex flex-col items-center justify-center px-4 md:px-20 lg:px-40 bg-stone-950 text-zinc-100">
       <h1 className="py-20 text-4xl poppins-light text-violet-400" data-aos="fade-right">{"Work"}</h1>
 
-      <div className="flex flex-row w-full max-w-7xl gap-46 items-center mb-24">
+      <div className="flex flex-col md:flex-row w-full max-w-7xl gap-46 items-center mb-24">
         <div className="flex-1 text-zinc-100 font-light" data-aos="fade-right">
           <h2 className="text-3xl poppins-semibold mb-2 text-violet-400">Self-Employed</h2>
           <div className="mb-4 border-b border-zinc-700">
@@ -28,7 +28,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className="flex flex-row w-full max-w-7xl gap-46 items-center mb-24">
+      <div className="flex flex-col-reverse md:flex-row w-full max-w-7xl gap-46 items-center mb-24">
         <div className="flex-1 flex justify-start items-center" data-aos="fade-right">
           <div className="w-[480px] h-[280px] overflow-hidden rounded-xl shadow-lg">
             <Image src="/genius-image.png" width={800} height={800} alt="Genius SSLC" className="object-cover w-full h-full"
@@ -51,7 +51,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className="flex flex-row w-full max-w-7xl gap-46 items-center mb-24">
+      <div className="flex flex-col md:flex-row w-full max-w-7xl gap-46 items-center mb-24">
         <div className="flex-1 text-zinc-100 font-light" data-aos="fade-right">
           <h2 className="text-3xl poppins-semibold mb-2 text-violet-400">Peter Vardy</h2>
           <div className="mb-4 border-b border-zinc-700">
