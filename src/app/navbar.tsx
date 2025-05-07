@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="bg-stone-950 text-zinc-100 px-6 py-4 shadow-md">
       <div className="container mx-auto flex items-center justify-between">
         <div className="text-xl font-bold poppins-regular">{"Dylan Bowman"}</div>
-        <ul className="flex gap-8 text-md font-medium poppins-regular">
+        <ul className="flex gap-8 text-md font-medium poppins-regular hidden md:flex">
           <li>
             <Link href="#home" className="hover:text-violet-400 transition-colors duration-200">
               {"Home"}
