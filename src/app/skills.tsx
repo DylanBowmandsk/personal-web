@@ -3,7 +3,6 @@ import {SiDotnet,SiFirebase,SiMongodb,SiMysql,SiJavascript,SiExpress,SiKubernete
 import { VscAzure } from "react-icons/vsc";
 
   const languages = [
-    { name: 'React', icon: <FaReact className="text-cyan-400" /> },
     { name: '.NET', icon: <SiDotnet className="text-indigo-300" /> },
     { name: 'Java', icon: <FaJava className="text-red-400" /> },
     { name: 'JavaScript', icon: <SiJavascript className="text-yellow-400" /> },
