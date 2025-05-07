@@ -28,7 +28,7 @@ const Work = () => {
         </div>
 
         <div className="flex-1 flex justify-end items-center" data-aos={width < 700 ?"":"fade-left"}>
-          <div className="w-[480px] h-[280px] overflow-hidden rounded-xl shadow-lg">
+          <div className="w-[380px] h-[280px] md:w-[480px] md: h-[280px] overflow-hidden rounded-xl shadow-lg">
             <Image src="/blockchain-image.PNG" width={800} height={800} alt="Web3 Project Visual" className="object-cover w-full h-full"
             />
           </div>
@@ -37,7 +37,7 @@ const Work = () => {
 
       <div className="flex flex-col-reverse md:flex-row w-full max-w-7xl gap-46 items-center mb-24">
         <div className="flex-1 flex justify-start items-center" data-aos={width < 700 ?"":"fade-right"}>
-          <div className="w-[480px] h-[280px] overflow-hidden rounded-xl shadow-lg">
+          <div className="w-[380px] h-[280px] md:w-[480px] md: h-[280px] overflow-hidden rounded-xl shadow-lg">
             <Image src="/genius-image.png" width={800} height={800} alt="Genius SSLC" className="object-cover w-full h-full"
             />
           </div>
@@ -73,7 +73,7 @@ const Work = () => {
         </div>
 
         <div className="flex-1 flex justify-end items-center" data-aos={width < 700 ?"":"fade-left"}>
-          <div className="w-[480px] h-[280px] overflow-hidden rounded-xl shadow-lg">
+          <div className="w-[380px] h-[280px] md:w-[480px] md: h-[280px] overflow-hidden rounded-xl shadow-lg">
             <Image src="/pv-image.PNG" width={800} height={800} alt="Peter Vardy Office" className="object-cover w-full h-full"
             />
           </div>
