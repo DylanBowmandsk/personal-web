@@ -20,8 +20,8 @@ const Work = () => {
             <span className="ml-2 text-sm text-zinc-400">2024 – 2025</span>
           </div>
           <p className="text-lg poppins-regular">
-            Working from the Solana blockchain, I developed bots for token launches that distributed supply to wallets, as well as volume bots to inflate trading activity.
-            These helped tokens hit the #1 trending spots on listing platforms. On the non-technical side, I contributed to community growth through marketing and engagement strategy,
+            Working from the Solana blockchain, I developed websites and smart contracts for token launches, as well as volume bots to inflate trading activity that helped tokens hit the #1 trending spots on listing platforms.
+            On the non-technical side, I contributed to community growth through marketing and engagement strategy,
             and by working closely with investors, community managers, and key opinion leaders. I’ve been part of the launch team for multiple tokens that reached million-dollar
             market caps, cementing my position in the ecosystem.
           </p>
